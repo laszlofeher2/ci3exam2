@@ -28,5 +28,7 @@ class Blogmodel extends CI_Model{
         return [];
     }
     
-    
+    private function valamimas() {
+        
+    }
 }

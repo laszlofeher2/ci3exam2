@@ -25,4 +25,8 @@ class Home extends CI_Controller {
         $data['bejegyzes'] = $this->blogmodel->getBejegyzesById($id);
         $this->load->view('item', $data);
     }
+    
+    private function valami () {
+        
+    }
 }
